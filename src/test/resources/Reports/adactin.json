@@ -1,0 +1,448 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-29T10:02:59.355Z",
+        "line": 13,
+        "name": "Verifying adatinhotel login with valid credentials",
+        "description": "",
+        "id": "verifying-facebook-details;verifying-adatinhotel-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30069816300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "As a user lanuch adactinhotel page",
+            "match": {
+              "location": "Loginsteps.browserlanuch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5491741300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "As a User enter \"Abarnaappu\" and \"abi@ppu\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abarnaappu\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"abi@ppu\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Loginsteps.as_a_User_enter_and_and_click_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52328300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "As a user verify the message",
+            "match": {
+              "location": "Loginsteps.as_a_user_verify_the_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6044712300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "As a user select \"Sydney\" and \"Hotel Creek\" and \"Standard\" and\"1 - One\" andclick the search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 62
+                }
+              ],
+              "location": "Loginsteps.as_a_user_select_and_and_and_andclick_the_search_button(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3084303300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "As a user click select and continue button",
+            "match": {
+              "location": "Loginsteps.as_a_user_click_select_and_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6506480100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "As a user enter \"Abi\" and\"appu\" and \"Thanjavur\" and \"2345665432234567\" and \"VISA\" and \"December\" and\"2022\"and\"4598\" and click book now button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abi\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"appu\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Thanjavur\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"2345665432234567\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"4598\"",
+                  "offset": 109
+                }
+              ],
+              "location": "Loginsteps.clickbookbutton(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T10:03:50.898Z",
+        "line": 14,
+        "name": "Verifying adatinhotel login with valid credentials",
+        "description": "",
+        "id": "verifying-facebook-details;verifying-adatinhotel-login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16110577900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "As a user lanuch adactinhotel page",
+            "match": {
+              "location": "Loginsteps.browserlanuch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4811261000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "As a User enter \"Abarnaappu\" and \"abi@ppu\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abarnaappu\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"abi@ppu\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Loginsteps.as_a_User_enter_and_and_click_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53336700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "As a user verify the message",
+            "match": {
+              "location": "Loginsteps.as_a_user_verify_the_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5202222300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "As a user select \"Brisbane\" and \"Hotel Sunshine\" and \"Super Deluxe\" and\"5 - Five\" andclick the search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brisbane\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Super Deluxe\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"5 - Five\"",
+                  "offset": 71
+                }
+              ],
+              "location": "Loginsteps.as_a_user_select_and_and_and_andclick_the_search_button(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2688331400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "As a user click select and continue button",
+            "match": {
+              "location": "Loginsteps.as_a_user_click_select_and_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6639663700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "As a user enter \"Arun\" and\"raj\" and \"Cheenai\" and \"2345686789009876\" and \"American Express\" and \"September\" and\"2021\"and\"2620\" and click book now button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Arun\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"raj\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Cheenai\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"2345686789009876\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"American Express\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"September\"",
+                  "offset": 96
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 111
+                },
+                {
+                  "val": "\"2620\"",
+                  "offset": 120
+                }
+              ],
+              "location": "Loginsteps.clickbookbutton(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-29T10:04:26.418Z",
+        "line": 15,
+        "name": "Verifying adatinhotel login with valid credentials",
+        "description": "",
+        "id": "verifying-facebook-details;verifying-adatinhotel-login-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17650910200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "As a user lanuch adactinhotel page",
+            "match": {
+              "location": "Loginsteps.browserlanuch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7178409400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "As a User enter \"Abarnaappu\" and \"abi@ppu\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abarnaappu\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"abi@ppu\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Loginsteps.as_a_User_enter_and_and_click_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39483300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "As a user verify the message",
+            "match": {
+              "location": "Loginsteps.as_a_user_verify_the_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6377923100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "As a user select \"Sydney\" and \"Hotel Hervey\" and \"Standard\" and\"10 - Ten\" andclick the search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Hotel Hervey\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"10 - Ten\"",
+                  "offset": 63
+                }
+              ],
+              "location": "Loginsteps.as_a_user_select_and_and_and_andclick_the_search_button(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2832556900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "As a user click select and continue button",
+            "match": {
+              "location": "Loginsteps.as_a_user_click_select_and_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6365877500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "As a user enter \"preethi\" and\"nachi\" and \"Velur\" and \"2345678910987564\" and \"Master Card\" and \"September\" and\"2021\"and\"3126\" and click book now button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"preethi\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"nachi\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Velur\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"2345678910987564\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"Master Card\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"September\"",
+                  "offset": 94
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 109
+                },
+                {
+                  "val": "\"3126\"",
+                  "offset": 118
+                }
+              ],
+              "location": "Loginsteps.clickbookbutton(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying facebook details",
+    "description": "",
+    "id": "verifying-facebook-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
